@@ -1,0 +1,102 @@
+/* index.html
+- index.html - всі блоки з user - по 2 в рядок. кнопки/посилання розташувати під інформацією
+    про user.*/
+.box {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 20px 15px 20px;
+    border: 5px solid #289976;
+    border-radius: 10px;
+    background: #ccf1b6;
+    width: 35%;
+
+}
+.item {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 550;
+    color: #33691e;
+}
+.code {
+    flex-basis: 8%;
+}
+
+.button {
+    border: 3px solid #45a184;
+    border-radius: 5px;
+    background: #eef5e1;
+    padding: 3px 35px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #1c6951;
+    font-weight: bold;
+}
+/* user-details.html
+    - user-details.html - блок з інфою про user зверху сторінки. Кнопка нижче,
+    на 90% ширини сторінки, по центру.*/
+.header {
+    margin: 1% 5%;
+    color: #3D3B8E;
+}
+.wrap {
+    display: inline-block;
+    width: max-content;
+    margin-left: 5%;
+    padding: 20px;
+    border: 10px solid #E072A4;
+    border-radius: 20px;
+    background: #F9F9F9;
+}
+.user-item {
+    display: flex;
+    padding: 1px;
+}
+.post-button {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    margin: 20px 5%;
+    color: #565656;
+    width: 90%;
+}
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.5%;
+    row-gap: 10px;
+    margin: 0 5%;
+    text-transform: capitalize;
+}
+.post-li::marker {
+    content: '  ✔    ';
+    color: #3D3B8E;
+}
+.post-li {
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 0 0 18%;
+    background: #f1f5eb;
+    border-radius: 15px;
+
+}
+.post-li-button {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #5d5ad0;
+}
+/* post-details.html */
+.post-4col {
+    flex: 0 0 22%;
+}
+/* Стилизація проєкта
+    - index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією
+    про user.
+
+    - user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє,
+    на 90% ширини сторінки, по центру.
+
+    - блоки з короткою інфою про post - в ряд по 5 .
+
+    - post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.
+    Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб
+    було видно що це блоки (дати фон. марджини і тд)*/
