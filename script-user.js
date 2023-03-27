@@ -4,6 +4,7 @@
 
 let repack = new URL(location.href);
 let user = JSON.parse(repack.searchParams.get('container'));
+console.log(user);
 let header = document.createElement('h1');
 header.classList.add('header');
 header.innerText = `User "${user.username}"`;
@@ -18,7 +19,15 @@ for (key in user) {
         let ulList = document.createElement('ul');
         for (value in user[key]) {
             let liList = document.createElement('li')
-            liList.innerText = `${value}: ${user[key][value]};`
+            if (typeof user[key][value] === "object") {
+                let geo = '';
+                for (const item in user[key][value]) {
+                    geo += ` ${item}: ${user[key][value][item]};`
+                }
+                liList.innerText = `${value}: ${geo}`
+            } else {
+                liList.innerText = `${value}: ${user[key][value]};`
+            }
             ulList.appendChild(liList)
         }
         item.appendChild(ulList)

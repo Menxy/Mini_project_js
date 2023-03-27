@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe9c89f-f031-4df9-8e7f-e5154c923d51" name="Changes" comment="Mini_project_start">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="5fe9c89f-f031-4df9-8e7f-e5154c923d51" name="Changes" comment="Mini_project_final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/script-user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679132822986</updated>
       <workItem from="1679132824347" duration="358000" />
-      <workItem from="1679133468283" duration="583000" />
+      <workItem from="1679133468283" duration="612000" />
+      <workItem from="1679919411946" duration="53000" />
+      <workItem from="1679919593326" duration="2080000" />
     </task>
     <task id="LOCAL-00001" summary="Mini_project_start">
       <created>1679133050768</created>
@@ -66,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679133513385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mini_project_final">
+      <created>1679134074156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679134074156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mini_project_start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mini_project_start" />
+    <MESSAGE value="Mini_project_final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini_project_final" />
   </component>
 </project>
